@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.traffic{
+    width: 30px;
+    height: 90px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.28);
+    gap: 2px;
+    padding: 2px;
+}
+
+.traffic> div{
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem/5rem;
+    background-color: black;
+}
+/*#red{*/
+/*    background-color: red;*/
+/*}*/
+/*#green{*/
+/*    background-color: green;*/
+/*}*/
+/*#yellow{*/
+/*    background-color: yellow;*/
+/*}*/
